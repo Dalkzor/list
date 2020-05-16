@@ -1,0 +1,138 @@
+.error {
+    color: #FF0000;
+}
+
+#logout-gif {
+    padding-bottom: 75px;
+    background-image: url(/dist/img/ajax/ajax-loader-logout.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hide-tag {
+    display: none;
+}
+
+a:focus {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+
+.add-new-client {
+    cursor: pointer;
+    color: #0c0c0c;
+    font-weight: bold;
+}
+
+.ui-dialog {
+    z-index: 1100;
+}
+
+.form-complaint select {
+    width: 500px;
+}
+.form-complaint textarea {
+    width: 500px;
+    height: 80px;
+}
+
+#btn-filter, #btn-add-complaint, #btn-add-client, #btn-add-operator {
+    width: 190px;
+}
+
+.btn-complaint, .btn-complaint-edit {
+    width: 130px;
+}
+
+#complaint-table td:nth-child(1) {
+    width: 35px;
+}
+
+#complaint-table td:nth-child(2) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#complaint-table td:nth-child(3) {
+    width: 120px;
+}
+
+#complaint-table td:nth-child(8) {
+    background-color: #aeec7c;
+}
+
+.bg-result {
+    background-color: #daec71;
+}
+
+.layer {
+    overflow-x: scroll;
+}
+
+.сontrol div {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fa-edit, .fa-trash-o {
+    cursor: pointer;
+}
+
+.ajax-loader {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    background: url(/dist/img/ajax/ajax-loader.gif) no-repeat scroll center center;
+}
+
+.date-from, .date-to {
+    width: 271px;
+}
+
+.office {
+    width: 546px;
+}
+
+.client {
+    width: 310px;
+}
+
+.operator {
+    width: 310px;
+}
+.complaint-type, .complaint-status {
+    width: 233px;
+}
+
+
+/* Clients */
+
+#client-table td:nth-child(1) {
+    width: 35px;
+}
+
+#client-table td:nth-child(2) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Operator */
+
+#operator-table td:nth-child(1) {
+    width: 35px;
+}
+
+#operator-table td:nth-child(2) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-operator {
+    width: 200px;
+}
+.btn-operator-edit {
+    width: 240px;
+}

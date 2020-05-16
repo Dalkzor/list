@@ -1,0 +1,6 @@
+/application/config/database.php
+/application/logs/log*
+/application/logs/doctrine_log_*
+/index.php
+/phpstorm.php
+/.idea/
